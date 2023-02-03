@@ -6,6 +6,13 @@
 # tests = {
 #     0: ((['a', 'b', 'c', 'd'], [1, 2, 3]), {'a': 1, 'b': 2, 'c': 3, 'd': None}),
 #     1: ((['a', 'b', 'c'], [1, 2, 3, 4]), {'a': 1, 'b': 2, 'c': 3})
-def create_dict(keys, values):
-    d = dict{'keys' : values}
-    print (d)
+
+
+def create_dict(keys):
+    for i in keys:
+
+
+j = ['a', 'b', 'c', 'd']
+# values = [1, 2, 3]
+
+print(create_dict(keys))

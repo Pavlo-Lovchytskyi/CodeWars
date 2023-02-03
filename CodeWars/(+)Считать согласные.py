@@ -1,7 +1,7 @@
 # https://www.codewars.com/kata/564e7fc20f0b53eb02000106/train/python
 # Завершите функцию, которая принимает строку текста на английском языке и
 # возвращает количество согласных в строке.
-# Согласные – это все буквы, используемые для написания английского языка,
+# Согласные  это все буквы, используемые для написания английского языка,
 # за исключением гласных a, e, i, o, u.
 # def sample_tests():
 #     test.assert_equals(consonant_count(''), 0, 'Test string is empty string');
@@ -20,7 +20,6 @@ def consonant_count(s):
         if i in 'bcdfghjklmnpqrstvwxyz':
             count += 1
     return count
-
 
 
 assert (consonant_count('XaeiouX'), 2, 'Test string: "XaeiouX"')

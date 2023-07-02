@@ -1,16 +1,5 @@
-class List:
-
-    def remove_(self, integer_list: list, values_list: list) -> list:
-        return [item for item in integer_list if item not in values_list]
+def open_or_senior(data: list) -> list:
+    return ['Senior' if age > 54 and handicap > 7 and handicap < 27 else 'Open' for (age, handicap) in data]
 
 
-a = List()
-print(a.remove_([1, 1, 2, 3, 1, 2, 3, 4, 4, 3, 5, 6, 7, 2, 8], [1, 3, 4, 2]))
-# [5, 6 ,7 ,8]
-
-#    list_a = []
-
-#    for item in integer_list:
-#         if item not in values_list:
-#             list_a.append(item)
-#     return list_a
+print(open_or_senior([(74, 10), (55, 6), (12, -2), (68, 7)]))
